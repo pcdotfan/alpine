@@ -14,7 +14,7 @@ export function walk(el, callback) {
     let node = el.firstElementChild
 
     while (node) {
-        walk(node, callback, false)
+        walk(node, callback)
 
         node = node.nextElementSibling
     }
